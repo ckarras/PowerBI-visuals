@@ -249,7 +249,7 @@ module powerbi.extensibility.visual {
 //RVIZ_IN_PBI_GUIDE:BEGIN:Added to enable user parameters
 
 
-           return VisualSettings.enumerateObjectInstances(this.settings || VisualSettings.getDefault(), options);
+           return objectEnumeration;
         }
     }
 }
